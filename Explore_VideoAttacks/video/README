@@ -1,0 +1,2 @@
+pytube -e mp4 -r 720p -f input.mp4 https://www.youtube.com/watch\?v\=eCsZUzA
+time ffmpeg -i input.mp4 -filter:v fps=fps=60/60 ffmpeg_%0d.png
